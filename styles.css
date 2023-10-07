@@ -7,4 +7,12 @@
 h1{
   font-size:28px;
   font-family:Impact;
+  margin-right: auto;
+  margin-left: auto;
+}
+.profile{
+  margin-right: auto;
+  margin-left: auto;
+  border-radius:15px
+  border-color: black;
 }
