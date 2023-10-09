@@ -1,11 +1,12 @@
 .nav_bar{
   background-color: #292535;
   height:fit-content;
+  display:inline-block;
 }
 .nav_but{
   background-color: #292535;
   color: white;
-  font-size: 14px;
+  font-size: 25x;
   font-family: Imperial;
 }
 nav_but:hover{
