@@ -1,14 +1,25 @@
-.nav_bar{
+ul{
   background-color: #292535;
-  height:fit-content;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
 }
-.nav_but{
-  background-color: #292535;
+
+li a{
+  text-align: center;
+  text-decoration: none;
+  padding: 16px;
   color: white;
   font-size: 25x;
   font-family: Imperial;
-  display:inline;
+  display:block;
+  list-style-type: none;
 }
-nav_but:hover{
+
+li a:hover{
   background-color: #243D3f;
+}
+
+li{
+  float: left;
 }
