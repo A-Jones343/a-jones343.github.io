@@ -7,7 +7,7 @@
   color: white;
   font-size: 25x;
   font-family: Imperial;
-  display:inline-block;
+  display:inline;
 }
 nav_but:hover{
   background-color: #243D3f;
