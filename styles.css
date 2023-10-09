@@ -1,19 +1,17 @@
 ul{
   background-color: #292535;
-  overflow: hidden;
+  list-style-type: none;
   margin: 0;
   padding: 0;
-  text-decoration: none;
-  list-style-type: none;
+  overflow: hidden;
 }
 
 li a{
+  display: block;
+  color: white;
   text-align: center;
   padding: 16px;
-  color: white;
-  font-size: 25x;
-  font-family: Imperial;
-  display:block;
+  text-decoration: none;
 }
 
 li a:hover{
