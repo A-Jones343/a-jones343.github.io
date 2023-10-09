@@ -3,17 +3,17 @@ ul{
   overflow: hidden;
   margin: 0;
   padding: 0;
+  text-decoration: none;
+  list-style-type: none;
 }
 
 li a{
   text-align: center;
-  text-decoration: none;
   padding: 16px;
   color: white;
   font-size: 25x;
   font-family: Imperial;
   display:block;
-  list-style-type: none;
 }
 
 li a:hover{
