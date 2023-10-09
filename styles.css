@@ -1,4 +1,4 @@
-ul{
+ul {
   background-color: #292535;
   list-style-type: none;
   margin: 0;
@@ -6,18 +6,18 @@ ul{
   overflow: hidden;
 }
 
-li a{
+li, a {
   display: block;
   color: white;
   text-align: center;
   padding: 16px;
-text-decoration: none;
+  text-decoration: none;
 }
 
-li a:hover{
+li, a:hover {
   background-color: #243D3f;
 }
 
 li{
-  float:right;
+  float: right;
 }
