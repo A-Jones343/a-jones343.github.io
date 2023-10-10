@@ -22,3 +22,7 @@ li a:hover {
 li{
   float: left;
 }
+
+body{
+  background-color: #5A5A5A;
+}
