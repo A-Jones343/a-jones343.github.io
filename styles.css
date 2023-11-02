@@ -35,8 +35,11 @@ body{
   padding-right:40;
 }
 
-.navbarProjects{
+input{
   display: none;
+}
+
+.navbarProjects{
   color:white;
   padding: 20 px;
   max-width: 25%;
