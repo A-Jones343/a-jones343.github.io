@@ -34,3 +34,7 @@ body{
   padding-left:40;
   padding-right:40;
 }
+
+.navbarProjects{
+  display: none;
+}
