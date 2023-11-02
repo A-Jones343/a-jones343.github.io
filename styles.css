@@ -7,13 +7,14 @@ ul {
   border-radius: 5px
 }
 
-li a {
+li a .navbarProjects {
   display: block;
   color: white;
   text-align: center;
   padding: 16px;
   text-decoration: none;
   border-radius: 5px;
+  
   
 }
 
@@ -43,5 +44,5 @@ input{
   color:white;
   padding: 20 px;
   max-width: 25%;
-  min-width: 25%;
+  
 }
