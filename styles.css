@@ -37,4 +37,8 @@ body{
 
 .navbarProjects{
   display: none;
+  color:white;
+  padding: 20 px;
+  max-width: 25%;
+  min-width: 25%;
 }
