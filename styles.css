@@ -30,4 +30,7 @@ body{
   background-color: #303340;
 }
 
-
+.nav_bar{
+  padding-left:10;
+  padding-right:10;
+}
