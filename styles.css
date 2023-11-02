@@ -7,15 +7,13 @@ ul {
   border-radius: 5px
 }
 
-li a .navbarProjects {
+li a{
   display: block;
   color: white;
   text-align: center;
   padding: 16px;
   text-decoration: none;
   border-radius: 5px;
-  
-  
 }
 
 .nav:hover {
@@ -37,13 +35,10 @@ body{
 }
 
 .navbarProjects{
-  color:white;
-  padding: 20 px;
-  max-width: 25%;
-<<<<<<< HEAD
-  
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  border-radius: 5px;
 }
-=======
-  min-width: 25%;
-}
->>>>>>> abe9699faaa713b90effd70ae75a1bbc9269ffa7
