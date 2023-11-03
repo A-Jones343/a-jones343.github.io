@@ -52,5 +52,6 @@ body{
 
 .projectParagraph{
   color:white;
-  
+  font-size: 14px;
+  font-family: sans-serif;
 }
