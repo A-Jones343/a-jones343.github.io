@@ -40,13 +40,11 @@ body{
   text-align: center;
   padding: 16px;
   text-decoration: none;
-  border-radius: 5px;
-  background-color: #292535;
-  width:fit-content;
 }
 
 .navbar2{
   border-radius: 5px;
   background-color: #292535;
   width:fit-content;
+  border-radius: 5px;
 }
