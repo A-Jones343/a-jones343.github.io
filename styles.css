@@ -32,7 +32,6 @@ body{
 
 .button{
   display: none;
-  padding-right: 16px;
 }
 
 .navbarProjects{
@@ -48,3 +47,6 @@ body{
   border-radius: 5px;
 }
 
+.w{
+  padding: 20px;
+}
