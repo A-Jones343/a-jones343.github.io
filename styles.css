@@ -63,7 +63,7 @@ p{
 .ProjectsPage{
   width:350px;
   height: 375px;
-  display:block;
+  display:grid;
   text-align: Center;
   padding: 16px;
   border-radius: 5px;
