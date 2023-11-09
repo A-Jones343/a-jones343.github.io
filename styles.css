@@ -50,6 +50,12 @@ body{
   padding: 20px;
 }
 
+p{
+  color:white;
+  font-size: medium;
+  font-style:normal;
+}
+
 .ProjectImg{
   width: 300px;
   height:300px
@@ -61,6 +67,6 @@ body{
   text-align: Center;
   padding: 16px;
   border-radius: 5px;
-  background-color: #243D3f;
+  background-color:#292535;
   color: white;
 }
