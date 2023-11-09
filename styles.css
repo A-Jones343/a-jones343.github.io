@@ -50,3 +50,16 @@ body{
 .w{
   padding: 20px;
 }
+
+.ProjectImg{
+  width: 200px;
+  height:200px
+}
+.ProjectsPage{
+  width:250px;
+  height: 275px;
+  display:block;
+  text-align: Center;
+  padding: 16px;
+  background-color: #243D3f;
+}
