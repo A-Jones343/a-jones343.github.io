@@ -7,6 +7,28 @@
   border-radius: 5px
 }
 
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.nav:hover {
+  background-color: #243D3f;
+  border-radius: 5px;
+}
+
+li{
+  float: left;
+}
+
+body{
+  background-color: #303340;
+}
+
 .navbarProjects{
   display: block;
   color: white;
