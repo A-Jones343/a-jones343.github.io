@@ -48,4 +48,8 @@ body{
   height: 300px;
 }
 
-
+p{
+  color:white;
+  font-size: medium;
+  font-style:normal;
+}
