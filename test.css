@@ -29,17 +29,6 @@ body{
   background-color: #303340;
 }
 
-.navbarProjects{
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 16px;
-  text-decoration: none;
-
-  border-radius: 5px;
-  width:fit-content;
-  border-radius: 5px;
-}
 
 .projectPage{
   background-color: #292535;
@@ -47,12 +36,19 @@ body{
   height: 60%;
   border-top: 10px;
   display: grid;
+  grid-auto-columns: 300px;
+  grid-auto-rows: 400px; 
+  gap: 10px;
+
 }
 
 .projectContainer{
   background-color: #04724D;
   border-radius: 5px;
   margin:10px;
+  width: 300px;
+  height: 400px;
+  
 
 }
 
