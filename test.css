@@ -37,7 +37,7 @@ body{
   border-top: 10px;
   display: grid;
   grid-auto-columns: 300px;
-  grid-auto-rows: 400px; 
+  grid-auto-rows: 300px; 
   gap: 10px;
   
 }
@@ -46,7 +46,7 @@ body{
   background-color: #04724D;
   border-radius: 5px;
   width:300px;
-  height: 400px;
+  height: 300px;
 }
 
 
