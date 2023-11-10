@@ -7,7 +7,7 @@
   border-radius: 5px
 }
 
-li a{
+.nav a{
   display: block;
   color: white;
   text-align: center;
@@ -45,9 +45,7 @@ body{
 .projectContainer{
   background-color: #04724D;
   border-radius: 5px;
-  margin:10px;
-  width: 300px;
-  height: 400px;
+  
   
 
 }
