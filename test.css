@@ -7,10 +7,6 @@
   border-radius: 5px
 }
 
-.button{
-  display: none;
-}
-
 .navbarProjects{
   display: block;
   color: white;
@@ -23,41 +19,19 @@
   border-radius: 5px;
 }
 
-
-p{
-  color:white;
-  font-size: medium;
-  font-style:normal;
+.projectPage{
+  background-color: #292535;
+  width: 100%;
+  height: 80%;
+  border-top: 10px;
+  display: grid;
 }
 
-.ProjectImg{
-  width: 300px;
-  height:300px
-
-}
-.ProjectsPage{
-  width:350px;
-  height: 375px;
-  display:grid;
-  text-align: Center;
-  padding: 16px;
+.projectContainer{
+  background-color: #04724D;
   border-radius: 5px;
-  background-color:#292535;
-  color: white;
-  margin:25px
-  
+  margin:10px;
+
 }
-
-.ProjectList{
-  padding: 25px;
-  border-radius: 5px;
-  margin-right: 10px;
-  border-color: aliceblue;
-  border-width: 12px;
-}
-
-
-
-
 
 
