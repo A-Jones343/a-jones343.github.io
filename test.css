@@ -49,6 +49,7 @@ body{
   width:300px;
   height: 300px;
   text-align: center;
+  position: relative;
 }
 
 .ProjectDesc{
@@ -60,6 +61,7 @@ body{
   bottom: 12.5;
   margin-right: 12.5;
   display: block;
+  padding: 16px
 }
 
 p{
