@@ -46,18 +46,4 @@ body{
   position: relative;
 }
 
-.ProjectDesc{
-  background-color: #292535;
-  border-radius: 5px;
-  width:275;
-  height:25px;
-  position: absolute;
-  display: block;
-  margin-right: 12.5px;
-}
 
-p{
-  color:white;
-  font-size: medium;
-  font-style:normal;
-}
