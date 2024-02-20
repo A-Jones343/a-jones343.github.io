@@ -1,12 +1,13 @@
 .nav_bar{
   background-color: #0B032D;
   list-style-type: none !important;
-  margin-top: 10px;
-  margin-right: 20%;
-  margin-left: 20%;
-  padding: 16px;
+  position: fixed;
+  top: 0;
+  right: 20%;
+  left:20%;
+  padding: 20px;
   overflow: hidden;
-  border-radius: 5px
+  border-radius: 15px
   
   
 }
@@ -16,18 +17,25 @@
 li a{
   display: inline;
   color: white;
-  padding: 20px;
+  padding: 15px;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 
 .nav:hover {
   background-color: #432C51;
   border-radius: 5px;
+
 }
 
-li {
+li.nav {
+  float: right;
+  padding:5px;
+}
+
+li.name {
   float: left;
+  padding:5px;
 }
 
 body{
@@ -35,12 +43,83 @@ body{
 }
 
 a {
-  font-family: monospace;
-  font-size: 16px;
+  font-family: 'Trebuchet MS';
+  font-size: 20px;
+  font-weight: bold;
 }
 
-.container {
-  text-align: center;
+a.name {
+
+  font-family:'Segoe UI';
 }
+
+footer {
+  position: fixed;
+  left: 10%;
+  right: 10%;
+  bottom: 20%;
+}
+
+hr {
+  border-color:#0B032D;
+  border-style: solid;
+  border-width: 2.5px;
+  border-radius: 5px;
+}
+
+.contact_container {
+  position: fixed;
+  left: 15%;
+  right: 15%;
+  bottom: 2.5%;
+  height: 15%;
+}
+
+.contact_child_left {
+  padding: 20px;
+  width: 40%;
+  height:15%;
+  margin: auto;
+  float:left;
+}
+
+.contact_child_right {
+  padding:20px;
+  width: 40%;
+  height:15%;
+  margin: auto;
+
+  float:right;
+}
+
+.CC_Child_left {
+  float:left;
+  padding: 30px;
+
+  width: 30%;
+
+  border-color:#0B032D;
+  border-style: solid;
+  border-top-width: 0;
+  border-right-width: 5px;
+  border-left-width: 5px;
+  border-bottom-width: 0;
+}
+
+.CC_Child_right {
+  float:right;
+  padding: 30px;
+
+  width:30%;
+
+  border-color:#0B032D;
+  border-style: solid;
+  border-top-width: 0;
+  border-right-width: 5px;
+  border-left-width: 5px;
+  border-bottom-width: 0;
+}
+
+
 
 
