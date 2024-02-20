@@ -1,89 +1,46 @@
 .nav_bar{
-  background-color: #292535;
+  background-color: #0B032D;
   list-style-type: none !important;
-  margin: 0;
-  padding: 10px;
+  margin-top: 10px;
+  margin-right: 20%;
+  margin-left: 20%;
+  padding: 16px;
   overflow: hidden;
   border-radius: 5px
+  
+  
 }
 
+
+
 li a{
-  display: block;
+  display: inline;
   color: white;
-  text-align: center;
-  padding: 16px;
+  padding: 20px;
   text-decoration: none;
   border-radius: 5px;
 }
 
 .nav:hover {
-  background-color: #243D3f;
+  background-color: #432C51;
   border-radius: 5px;
 }
 
-li{
+li {
   float: left;
 }
 
 body{
-  background-color: #303340;
+  background-color: #432C51;
 }
 
-
-.button{
-  display: none;
+a {
+  font-family: monospace;
+  font-size: 16px;
 }
 
-.navbarProjects{
-  display: block;
-  color: white;
+.container {
   text-align: center;
-  padding: 16px;
-  text-decoration: none;
-
-  border-radius: 5px;
-  width:fit-content;
-  border-radius: 5px;
 }
-
-.w{
-  padding: 20px;
-}
-
-p{
-  color:white;
-  font-size: medium;
-  font-style:normal;
-}
-
-.ProjectImg{
-  width: 300px;
-  height:300px
-
-}
-.ProjectsPage{
-  width:350px;
-  height: 375px;
-  display:grid;
-  text-align: Center;
-  padding: 16px;
-  border-radius: 5px;
-  background-color:#292535;
-  color: white;
-  margin:25px
-  
-}
-
-.ProjectList{
-  padding: 25px;
-  border-radius: 5px;
-  margin-right: 10px;
-  border-color: aliceblue;
-  border-width: 12px;
-}
-
-
-
-
 
 
