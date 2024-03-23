@@ -1,132 +1,88 @@
 /* Website Color Pallets:
 Deep Blue: #050A30, # 000C66, #0000FF, #7EC8E3
 Wall Greens: #778A35, #D1E2C4, #EBEBEB, #31352E  THIS.
-Purple Fabric: #BEAFC2, #695E93, #8155BA, #281C2D
+Purple Fabric: #BEAFC2, #695E93, #8155BA, #281C2D Jone
 */
 
-
-.nav_bar{
-  background-color: #0B032D;
-  list-style-type: none !important;
-  position: fixed;
-  top: 0;
-  right: 20%;
-  left:20%;
-  padding: 20px;
-  overflow: hidden;
-  border-radius: 15px
-  
-  
+body {
+  background-color: #071330;
+  overflow:hidden;
 }
 
-
-
-li a{
-  display: inline;
-  color: white;
-  padding: 15px;
-  text-decoration: none;
-  border-radius: 15px;
-}
-
-.nav:hover {
-  background-color: #432C51;
+.Navigation_Area {
+  width:auto;
+  min-width: 750px;
+  background-color: #071330;
+  position: absolute;
+  top:25px;
+  left:25px;
+  right:25px;
+  padding: 5px;
   border-radius: 5px;
-
-}
-
-li.nav {
-  float: right;
-  padding:5px;
-}
-
-li.name {
-  float: left;
-  padding:5px;
-}
-
-body{
-  background-color: #432C51;
 }
 
 a {
+  color:#C3CEDA;
   font-family: 'Trebuchet MS';
-  font-size: 20px;
+  
+  padding: 20px;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.name {
+  float: left;
+  padding-right:100px;
   font-weight: bold;
+
 }
 
-a.name {
-
-  font-family:'Segoe UI';
+.nav {
+  list-style-type: none;
+  display: inline;
+  float:right;
+  
+  
 }
 
-footer {
-  position: fixed;
-  left: 10%;
-  right: 10%;
-  bottom: 20%;
+.nav_bar {
+  padding: 5px;
+  padding-left: 100px;
 }
 
-hr {
-  border-color:#0B032D;
-  border-style: solid;
-  border-width: 2.5px;
+.nav:hover {
+  background-color: #0C4160;
   border-radius: 5px;
 }
 
-.contact_container {
-  position: fixed;
-  left: 15%;
-  right: 15%;
-  bottom: 2.5%;
-  height: 15%;
+.header {
+  background-image: url(360_F_180045614_wUikfPv1VhpukGYtUBDfA2sGggXXJmQ5.jpg);
+  width: 100%;
+  position:absolute;
+  left:0px;
+  right: 0px;
+  top: 0px;
+  height: 30%;
+
+  
 }
 
-.contact_child_left {
-  padding: 20px;
-  width: 40%;
-  height:15%;
-  margin: auto;
-  float:left;
-}
-
-.contact_child_right {
-  padding:20px;
-  width: 40%;
-  height:15%;
-  margin: auto;
-
-  float:right;
-}
-
-.CC_Child_left {
-  float:left;
-  padding: 30px;
-
-  width: 30%;
-
-  border-color:#0B032D;
+.front_Page {
+  width: auto;
+  position:absolute;
+  top: 35%;
+  bottom: 5%;
+  left: 2.5%;
+  right:2.5%;
+  border-radius: 10px;
+  border-color: #012640;
   border-style: solid;
-  border-top-width: 0;
-  border-right-width: 5px;
-  border-left-width: 5px;
-  border-bottom-width: 0;
+  height: auto;
+  border-width: 5px;;
 }
 
-.CC_Child_right {
-  float:right;
-  padding: 30px;
-
-  width:30%;
-
-  border-color:#0B032D;
-  border-style: solid;
-  border-top-width: 0;
-  border-right-width: 5px;
-  border-left-width: 5px;
-  border-bottom-width: 0;
+.AboutSection {
+  text-align: center;
+  background-color: #012640;
+  padding: 5px;
 }
-
-
-
-
