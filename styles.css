@@ -6,7 +6,7 @@ Purple Fabric: #BEAFC2, #695E93, #8155BA, #281C2D Jone
 
 body {
   background-color: #071330;
-  overflow:scroll;
+  overflow:hidden;
 }
 
 .Navigation_Area {
@@ -18,7 +18,7 @@ body {
   left:25px;
   right:25px;
   padding: 5px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 a {
@@ -41,8 +41,6 @@ a {
   list-style-type: none;
   display: inline;
   float:right;
-  
-  
 }
 
 .nav_bar {
@@ -62,28 +60,65 @@ a {
   left:0px;
   right: 0px;
   top: 0px;
-  height: 250px;
+  height: 30%;
 
   
 }
 
 .front_Page {
-  width: auto;
+  width: auto; 
   position:absolute;
-  top: 300px;
-  padding-bottom: 50px;
-  left: 25px;
-  right:25px;
+  top: 35%;
+  left: 2.5%;
+  right:2.5%;
   border-radius: 10px;
   border-color: #012640;
   border-style: solid;
-  height: 500px;
-  border-width: 5px;;
-  
+  height: auto;
+  bottom: 5%;
+  border-width: 5px;
+  overflow:hidden;
 }
 
-.AboutSection {
+.AboutMe {
   text-align: center;
   background-color: #012640;
   padding: 5px;
 }
+
+.profile {
+  width:25%;
+  background-color: #012640;
+  height: 100%;
+  float: left;
+
+  display:grid;
+  align-items: center;
+  padding-bottom: 5%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  padding-bottom: 10%;
+}
+.AboutSection {
+  width:74.8%;
+  background-color: #071330;
+  height: 100%;
+  float: right;
+  border-color: #012640;
+  border-left-width: 5%;
+  border-left-style: solid ;
+}
+
+p {
+  color:#C3CEDA;
+  font-family: 'Trebuchet MS';
+  
+  padding-top: 1%;
+  padding-left: 2%;
+  font-size: 15px;
+  text-decoration: none;
+}
+
