@@ -71,7 +71,7 @@ a {
   top: 35%;
   left: 2.5%;
   right:2.5%;
-  border-radius: 10px;
+  border-radius: 5px;
   border-color: #012640;
   border-style: solid;
   height: auto;
@@ -83,15 +83,24 @@ a {
 .AboutMe {
   text-align: center;
   background-color: #012640;
+  position: absolute;
+  top: 0px;
+  left:0px;
+  right: 0px;
   padding: 5px;
 }
 
 .profile {
+  position:absolute;
+  left:0px;
+  top: 5%;
   width:25%;
-  background-color: #012640;
+  background-color: white;
   height: 100%;
   float: left;
-
+  border-right-width: 5px;
+  border-right-style: solid;
+  border-right-color: #0C4160;
   display:grid;
   align-items: center;
   padding-bottom: 5%;
@@ -103,21 +112,19 @@ img {
   padding-bottom: 10%;
 }
 .AboutSection {
-  width:74.8%;
+  position:absolute;
+  bottom:0px;
+  top:40px;
+  right:0px;
+  left: 25%;
   background-color: #071330;
-  height: 100%;
-  float: right;
-  border-color: #012640;
-  border-left-width: 5%;
-  border-left-style: solid ;
+  height: auto;
+  border-radius: 5px;
 }
 
 p {
   color:#C3CEDA;
   font-family: 'Trebuchet MS';
-  
-  padding-top: 1%;
-  padding-left: 2%;
   font-size: 15px;
   text-decoration: none;
 }
