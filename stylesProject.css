@@ -1,12 +1,7 @@
-/* Website Color Pallets:
-Deep Blue: #050A30, # 000C66, #0000FF, #7EC8E3
-Wall Greens: #778A35, #D1E2C4, #EBEBEB, #31352E  THIS.
-Purple Fabric: #BEAFC2, #695E93, #8155BA, #281C2D Jone
-*/
 
 body {
   background-color: #071330;
-  overflow:hidden;
+  overflow:scroll;
 }
 
 .Navigation_Area {
@@ -86,7 +81,7 @@ a.name {
   z-index: 1;
 }
 
-.AboutMe {
+.project {
   text-align: center;
   background-color: transparent;
   position: absolute;
@@ -188,4 +183,18 @@ a.section {
   font-family: 'Trebuchet MS';
   font-size: 25px;
   text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  display: grid;
+}
+
+.child {                            
+  background-color: aqua;
+  width: 15%;
+  padding: 5%;
+
 }
