@@ -6,7 +6,7 @@ Purple Fabric: #BEAFC2, #695E93, #8155BA, #281C2D Jone
 
 body {
   background-color: #071330;
-  overflow:hidden;
+  overflow:scroll;
 }
 
 .Navigation_Area {
@@ -60,66 +60,65 @@ a {
   left:0px;
   right: 0px;
   top: 0px;
-  height: 30%;
-
-  
+  height: 50%;
+  z-index: 0;
 }
 
 .front_Page {
   width: auto; 
   position:absolute;
-  top: 35%;
+  top: 45%;
   left: 2.5%;
   right:2.5%;
   border-radius: 5px;
-  border-color: #012640;
+  border-color: #0C4160;
   border-style: solid;
-  height: auto;
+  height: 70%;
   bottom: 5%;
   border-width: 5px;
-  overflow:hidden;
+  z-index: 1;
 }
 
 .AboutMe {
   text-align: center;
-  background-color: #012640;
+  background-color: transparent;
   position: absolute;
   top: 0px;
   left:0px;
   right: 0px;
-  padding: 5px;
+  padding: 15px;
+  border-bottom-color: #0C4160;
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
 }
 
 .profile {
   position:absolute;
   left:0px;
   top: 5%;
-  width:25%;
-  background-color: white;
+  right: 75%;
+  width:auto;
+  background-color: transparent;
   height: 100%;
   float: left;
-  border-right-width: 5px;
-  border-right-style: solid;
-  border-right-color: #0C4160;
   display:grid;
   align-items: center;
   padding-bottom: 5%;
+  padding-top: 5%;
+  
 }
 
-img {
-  width: 100%;
-  height: auto;
-  padding-bottom: 10%;
-}
+
 .AboutSection {
   position:absolute;
   bottom:0px;
   top:40px;
   right:0px;
   left: 25%;
-  background-color: #071330;
+  background-color: transparent;
   height: auto;
   border-radius: 5px;
+  padding: 15px;
 }
 
 p {
