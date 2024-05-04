@@ -1,200 +1,152 @@
+.sideBar {
+  position: absolute;
+  left: 0px;
+  width:200px;
+  height: 100%;
+  background-color: #621414;
+  align-items: center;
+  min-height: fit-content;
+}
 
 body {
-  background-color: #071330;
-  overflow:scroll;
+  background-color: #0A0E23;
+  margin:0px;
+  padding: 0px;
 }
 
-.Navigation_Area {
-  width:auto;
-  min-width: 750px;
-  background-color: #071330;
-  position: absolute;
-  top:25px;
-  left:25px;
-  right:25px;
-  padding: 5px;
-  border-radius: 10px;
+.profilepic {
+  background-image: url(Images/Profile.jpg);
+  position: relative;
+  margin: 25px;
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  background-size:cover;
+  background-repeat: no-repeat;
 }
 
+ul.navBar {
+  list-style: none;
+  text-decoration: none;
+  width: 100%;
+  min-height:fit-content;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+  padding-top: 20px;
+  
+}
 a.section {
-  color:#C3CEDA;
-  font-family: 'Trebuchet MS';
-  
-  padding: 20px;
-  font-size: 25px;
-  text-decoration: none;
-}
-
-a.name {
-  float: left;
-  padding-right:100px;
   font-weight: bold;
-
   color:#C3CEDA;
   font-family: 'Trebuchet MS';
-  
-  padding: 20px;
   font-size: 25px;
   text-decoration: none;
+  padding:5px;
 }
 
-.nav {
-  list-style-type: none;
-  display: inline;
+.iconhome {
+  width: 25px;
+  height: 25px;
+  background-image:url(Images/home.png);
+  float: left;
+  color:white;
+}
+
+.iconprojects {
+  width: 25px;
+  height: 25px;
+  background-image:url(Images/light-bulb.png);
+  float: left;
+  color:white;
+}
+
+.iconresume {
+  width: 25px;
+  height: 25px;
+  background-image:url(Images/resume.png);
+  float: left;
+  color:white;
+}
+
+.iconblog {
+  width: 25px;
+  height: 25px;
+  background-image:url(Images/application.png);
+  float: left;
+  color:white;
+}
+
+.iconcontact {
+  width: 25px;
+  height: 25px;
+  background-image:url(Images/contact.png);
+  float: left;
+  color:white;
+}
+
+.mediaContainer {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  bottom:0px;
+}
+
+.mediaLinks1 {
+  width:50%;
+  height: 50%;
+  float:left;
+  align-content: center;
+}
+
+.mediaLinks2 {
+  width:50%;
+  height: 50%;
   float:right;
 }
 
-.nav_bar {
-  padding: 5px;
-  padding-left: 100px;
+.iconlinkedin {
+  width: 50px;
+  height: 50px;
+  background-image:url(Images/linkedin.png);
+  color:white;
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 25px;
 }
 
-.nav:hover {
-  background-color: #0C4160;
-  border-radius: 5px;
+.icongithub {
+  width: 50px;
+  height: 50px;
+  background-image:url(Images/github.png);
+  color:white;
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 25px;
 }
 
-.header {
-  background-image: url(360_F_180045614_wUikfPv1VhpukGYtUBDfA2sGggXXJmQ5.jpg);
-  width: 100%;
-  position:absolute;
-  left:0px;
-  right: 0px;
-  top: 0px;
-  height: 40%;
-  z-index: 0;
-  background-repeat:repeat-x;
+.iconemail {
+  width: 50px;
+  height: 50px;
+  background-image:url(Images/apple.png);
+  color:white;
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 25px;
 }
 
-.front_Page {
-  width: auto; 
-  position:absolute;
-  top: 32%;
-  left: 2.5%;
-  right:2.5%;
-  border-radius: 5px;
-  border-color: #0C4160;
-  border-style: solid;
-  height: 60%;
-  bottom: 5%;
-  border-width: 5px;
-  z-index: 1;
-}
-
-.project {
-  text-align: center;
-  background-color: transparent;
-  position: absolute;
-  top: 0px;
-  left:0px;
-  right: 0px;
-  padding: 15px;
-  border-bottom-color: #0C4160;
-  border-bottom-style: solid;
-  border-bottom-width: 5px;
-}
-
-.profile {
-  position: absolute;
-  width:auto;
-  left:0px;
-  right:75%;
-  bottom:0px;
-  top:64px;
-  background-color: transparent;
-  height: auto;
-  float: left;
-  display:grid;
-  align-items: center;
-  border-right-color:#0C4160;
-  border-right-style: solid;
-  border-right-width: 5px;
-}
-
-
-.AboutSection {
-  position:absolute;
-  bottom:0px;
-  top:40px;
-  right:0px;
-  left: 25%;
-  background-color: transparent;
-  height: auto;
-  border-radius: 5px;
-  padding: 15px;
-}
-
-p {
-  color:#C3CEDA;
-  font-family: 'Trebuchet MS';
-  font-size: 30px;
-  text-decoration: none;
-}
-
-img {
-  height: 100%;
-  width: 100%;
-  object-fit: contain;
-
-}
-
-button {
-  width:fit-content;
-  height:fit-content;
-  font-size: 30px;
-  font-style: 'Trebuchet MS';
-  padding: 15px;
-  background-color:#0C4160;
-  border-color: #0C4160;
-  border-width: 5px;
-  border-style: solid;
-  color: #C3CEDA;
-}
-
-.btns {
-  position:absolute;
-  bottom: 10%;
-  left: 5%;
-  width: fit-content;
-}
-
-.Learn_more {
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-}
-
-.Contact {
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-}
-
-button:hover {
-  background-color:#C3CEDA;
-  border-color: #C3CEDA;
-  border-width: 5px;
-  border-style: solid;
-  color: #0C4160;
-
-}
-
-
-a.section {
-  color:#C3CEDA;
-  font-family: 'Trebuchet MS';
-  font-size: 25px;
-  text-decoration: none;
-}
-
-.container {
-  width: 100%;
-  height: auto;
-  background-color: white;
-  display: grid;
-}
-
-.child {                            
-  background-color: aqua;
-  width: 15%;
-  padding: 5%;
-
+.icondiscord {
+  width: 50px;
+  height: 50px;
+  background-image:url(Images/discord.png);
+  color:white;
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 25px;
 }
