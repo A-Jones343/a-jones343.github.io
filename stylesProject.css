@@ -5,13 +5,14 @@
   height: 100%;
   background-color: #621414;
   align-items: center;
-  min-height: fit-content;
+  min-height: 550px;
 }
 
 body {
   background-color: #0A0E23;
   margin:0px;
   padding: 0px;
+  overflow: hidden;
 }
 
 .profilepic {
@@ -23,19 +24,21 @@ body {
   border-radius: 5px;
   background-size:cover;
   background-repeat: no-repeat;
+  min-width: 150px;
 }
 
 ul.navBar {
   list-style: none;
   text-decoration: none;
   width: 100%;
-  min-height:fit-content;
+  min-height:200px;
 }
 
 li {
   text-decoration: none;
   list-style: none;
-  padding-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   
 }
 a.section {
@@ -91,7 +94,8 @@ a.section {
   position: absolute;
   width: 100%;
   height: 200px;
-  bottom:0px;
+  bottom:2.5px;
+  min-width: 200px;
 }
 
 .mediaLinks1 {
@@ -99,12 +103,14 @@ a.section {
   height: 50%;
   float:left;
   align-content: center;
+  min-width: 100px;
 }
 
 .mediaLinks2 {
   width:50%;
   height: 50%;
   float:right;
+  min-width: 100px;
 }
 
 .iconlinkedin {
