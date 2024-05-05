@@ -8,6 +8,15 @@
   min-height: 550px;
 }
 
+.activeArea {
+  position: absolute;
+  left: 300px;
+  right:100px;
+  top:100px;
+  bottom: 100px;
+  background-color: green;
+  border-radius: 5px;
+}
 body {
   background-color: #0A0E23;
   margin:0px;
@@ -39,6 +48,8 @@ li {
   list-style: none;
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-left: 20px;
+  border-radius: 5px;
   
 }
 a.section {
@@ -56,6 +67,7 @@ a.section {
   background-image:url(Images/home.png);
   float: left;
   color:white;
+  filter:invert(100%);
 }
 
 .iconprojects {
@@ -64,6 +76,7 @@ a.section {
   background-image:url(Images/light-bulb.png);
   float: left;
   color:white;
+  filter:invert(100%);
 }
 
 .iconresume {
@@ -72,6 +85,7 @@ a.section {
   background-image:url(Images/resume.png);
   float: left;
   color:white;
+  filter:invert(100%);
 }
 
 .iconblog {
@@ -80,6 +94,7 @@ a.section {
   background-image:url(Images/application.png);
   float: left;
   color:white;
+  filter:invert(100%);
 }
 
 .iconcontact {
@@ -88,6 +103,7 @@ a.section {
   background-image:url(Images/contact.png);
   float: left;
   color:white;
+  filter:invert(100%);
 }
 
 .mediaContainer {
@@ -122,6 +138,7 @@ a.section {
   background-size: contain;
   background-repeat: no-repeat;
   margin: 25px;
+  filter:invert(100%);
 }
 
 .icongithub {
@@ -133,6 +150,7 @@ a.section {
   background-size: contain;
   background-repeat: no-repeat;
   margin: 25px;
+  filter:invert(100%);
 }
 
 .iconemail {
@@ -144,6 +162,7 @@ a.section {
   background-size: contain;
   background-repeat: no-repeat;
   margin: 25px;
+  filter:invert(100%);
 }
 
 .icondiscord {
@@ -155,4 +174,43 @@ a.section {
   background-size: contain;
   background-repeat: no-repeat;
   margin: 25px;
+  filter:invert(100%);
+}
+
+.projectcontainer {
+  width: auto;
+  height: auto;
+  display: grid;
+  column-gap: 50px;
+  row-gap: 50px;
+  position: absolute;
+  left: 50px;
+  right: 0px;
+  top: 50px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-flow: row;
+  grid-auto-rows: 350px;
+  
+}
+
+.main {
+  width:auto;
+  position: absolute;
+  left: 200px;
+  right: 0px;
+  bottom: 0px;
+  top: 0px;
+  overflow-x:hidden;
+  overflow-y: auto;
+}
+
+.bold {
+  background-color: #0A0E23;
+}
+
+.projects {
+  background-color: green;
+  width: 350px;
+  height: 350px;
+  grid
 }
