@@ -10,13 +10,24 @@
   --projectTitleSize: 50px;
   --borderRadius: 5px;
 
-  --SideBarWidth: 100px;
+
+  --SideBarWidth: 200px;
   --ProfileSize: calc(var(--SideBarWidth) * 0.75);
+  --SideBarPadding: calc((var(--SideBarWidth) - 50)/2);
 }
 
+.SideBtn {
+  width: 100px;
+  height: 50px;
+  background-color: var(--mainColor);
+}
 
-
-
+.containLayout {
+  width: 100%;
+  position:absolute;
+  padding: 10px;
+  background-color:blue;
+}
 
 .sideBar {
   position: absolute;
@@ -59,8 +70,8 @@ li {
   list-style: none;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 20px;
   border-radius: var(--borderRadius);
+  background-color: green;
   
 }
 .section {
@@ -76,7 +87,9 @@ li {
   height: 25px;
   float: left;
   color:white;
-  filter:invert(100%);}
+  filter:invert(100%);
+  background-size: contain;
+}
 .home {
   background-image:url(Images/home.png);}
 .project {
@@ -85,6 +98,10 @@ li {
   background-image:url(Images/resume.png);}
 .blog {
   background-image:url(Images/application.png);}
+.layout {
+  background-image:url(Images/sidebar.png);
+  margin: var(--SideBarPadding);
+}
 
 
 .mediaContainer {
@@ -147,7 +164,7 @@ li {
 .main {
   width:auto;
   position: absolute;
-  left: 200px;
+  left: var(--SideBarWidth);
   right: 0px;
   bottom: 0px;
   top: 0px;
